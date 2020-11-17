@@ -18,7 +18,7 @@ print('''ORIGIN
    61 lqvgqvelgg gpgagslqpl alegslqkrg iveqcctsic slyqlenycn
 //''', file=open("insulin.txt", "a"))
 
-list = ["1", "//", "61"," ","ORIGIN"]
+list = ["1", "//", "6"," ","ORIGIN","\n"]
 with open("/content/insulin.txt","r+") as a, open("/content/cleaninsulin.txt","w") as b:
     for line in a:
         for word in list:
