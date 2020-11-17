@@ -27,9 +27,9 @@ with open("/content/insulin.txt","r+") as a, open("/content/cleaninsulin.txt","w
 
 x3 = open("/content/cleaninsulin.txt","r+").read()
 x4 = x3[:24]
-x5 = x3[25:54]
-x6 = x3[55:89]
-x7 = x3[90:110]
+x5 = x3[24:54]
+x6 = x3[54:89]
+x7 = x3[89:110]
 
 list_names = ["lsinsulin_seq_clean.txt","binsulin_seq_clean.txt","cinsulin_seq_clean.txt","ainsulin_seq_clean.txt"]
 variable = [x4,x5,x6,x7]
